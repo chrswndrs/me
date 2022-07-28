@@ -1,3 +1,3 @@
-# Knowledge Base Mono Repo
+# me
 
-Here are all the Knowledge Information saved. Meaning Zettelkasten and the Blog-Posts resulting from that Notes.
+My Personal KEG Site
