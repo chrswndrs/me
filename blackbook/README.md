@@ -4,4 +4,4 @@
  * man ls
  * pwd
  * shutdown -h now
-   -h (hibernate?)
+   (-h hibernate?)
