@@ -4,4 +4,12 @@
  * man ls
  * pwd
  * shutdown -h now
-   (-h hibernate?)
+   (-h halt, shutdown in the current state)
+
+
+## SSH Commands
+   
+   
+
+
+# Docker Commands
