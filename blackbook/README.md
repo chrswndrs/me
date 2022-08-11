@@ -46,6 +46,38 @@
    change to previous directory
  * ch /
    change to the root directory
+ * clear
+   clear the screen
+ * ip a (ipconfig forwardslash all, on windows)
+   show all ip addresses
+ * which ssh
+   display full path to ssh program
+ * type ssh
+   display what type of thing it is, 
+   shows if a command is a builtin or external command,
+   better than which because you could see if the cmd is being overwritten (sec reason)
+ * who 
+   display who is logged in and how
+ * w 
+   display logger version of  who is logged in
+ * whoami
+   print effective user name/id
+ * users
+   short name of all logged in users
+ * last
+   summary of last logged in users
+ * id 
+   display user and group names and ids for self
+ * exit
+   exit the current program or login or shell
+ * | less or | more (q to quit)
+   see scrolled output in terminal
+ * ctrl-c
+   interrupt whatever (exit)
+ * ctrl-d
+   send "end of data/file"
+ * 
+   
  
 
 
