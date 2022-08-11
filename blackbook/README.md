@@ -76,7 +76,12 @@
    interrupt whatever (exit)
  * ctrl-d
    send "end of data/file"
- * 
+ * vboxmanage startvm VMNAME --type headless
+   start vm headless from console
+ * vboxmanage list vms
+   list all installed vms
+ * vbosmanage list runningvms
+   list all running vms
    
  
 
