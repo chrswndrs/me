@@ -11,4 +11,7 @@
   Bridged is the easiest way to get your computer ssh into your vm
   
   
+References:
+- https://www.virtualbox.org/manual/ch06.html
+  
       #network #vm #virtual-box
