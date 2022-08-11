@@ -8,6 +8,7 @@
   pretend that this VM is not inside the pc instead pretent that the vm is next to the host
   so bridged makes it visible in the network, as if it would be a seperate computer that gets an ip add
   bridged -> get a new ip add
+  Bridged is the easiest way to get your computer ssh into your vm
   
   
       #network #vm #virtual-box
