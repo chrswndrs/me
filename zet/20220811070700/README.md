@@ -10,4 +10,4 @@ Related:
 - What Every BJJ White Belt And Blue Belt Should Learn And Focus In Jiu Jitsu by Gordon Ryan: https://youtu.be/Jekd1ruohpw 
 
 
-    #bjj #whiteBelt #BlueBelt
+    #bjj #whiteBelt #blueBelt
