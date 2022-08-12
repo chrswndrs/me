@@ -12,6 +12,7 @@ d, if it is a directory indicated on the beginning of permissions, file, -
   --- -> o, other
   
 special permission to executable: setuid
+setuid is how sudo works
 
 +x on a directory means the ability to see (list) things inside the directory.
 
