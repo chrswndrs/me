@@ -10,6 +10,8 @@ d, if it is a directory indicated on the beginning of permissions, file, -
   rwx -> u, user
   r-x -> g, group
   --- -> o, other
+  
+special permission to executable: setuid
 
 +x on a directory means the ability to see (list) things inside the directory.
 
