@@ -4,7 +4,11 @@
 - first dash = directory (indicated by d) or file (indicated by -)
 - second is user permissions
 - third is group permissions
-- fourth is world permissions
+- fourth is other (world) permissions
 
+d, if it is a directory indicated on the beginning of permissions, file, - 
+  rwx -> u, user
+  r-x -> g, group
+  --- -> o, other
 
     #unix #linux #permissions
