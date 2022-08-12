@@ -76,6 +76,44 @@
    interrupt whatever (exit)
  * ctrl-d
    send "end of data/file"
+ * ls -ld
+   show me the permissions of the current directory
+ * ls -i 
+   list the index for inode
+ * stat foo
+   see all the details about the foo inode
+ * sudo adduser foo
+   interactively add a  user named foo (not RedHat)
+ * sudo passwd foo
+   change the password for foo
+ * sudo passwd
+   change own password
+ * sudo deluser foo
+   remove user foo
+ * stat -c '%a'
+   to see octal permissions
+ * chmod u+r
+   give read permissions to user
+ * chmod g+r
+   give read permissions to group
+ * chmod o+r
+   give read permissions to other
+ * chmod +x 
+   give executable to user, group, other
+ * chmod u-r
+   remove read permissions for user
+ * chmod -x
+   remove executable for user, group, other
+ * set -o vi
+   set console to vi-mode
+ * echo foo
+   write foo to standard output
+ * cat foo
+   write content of foo file to standard output
+ * ls -l $(which sudo)
+   list perms for sudo command
+   $() = command substitution
+ 
    
 ## Virtual Box Commands
 
