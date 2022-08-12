@@ -50,6 +50,8 @@
    clear the screen
  * ip a (ipconfig forwardslash all, on windows)
    show all ip addresses
+ * ip -c a
+   show all ip addresses in color
  * which ssh
    display full path to ssh program
  * type ssh
@@ -104,6 +106,8 @@
    remove read permissions for user
  * chmod -x
    remove executable for user, group, other
+ * chown foo rando
+   change ownership of foo to rando
  * set -o vi
    set console to vi-mode
  * echo foo
@@ -113,7 +117,6 @@
  * ls -l $(which sudo)
    list perms for sudo command
    $() = command substitution
- 
    
 ## Virtual Box Commands
 
