@@ -16,4 +16,8 @@ setuid is how sudo works, -rwsr-xr-x 1 root root 232408 Feb 14 11:48 /usr/bin/su
 
 +x on a directory means the ability to see (list) things inside the directory.
 
+
+Reference:
+- 
+
     #unix #linux #permissions
