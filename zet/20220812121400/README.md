@@ -11,4 +11,6 @@ d, if it is a directory indicated on the beginning of permissions, file, -
   r-x -> g, group
   --- -> o, other
 
++x on a directory means the ability to see (list) things inside the directory.
+
     #unix #linux #permissions
