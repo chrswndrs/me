@@ -7,5 +7,4 @@
 - fourth is world permissions
 
 
-
     #unix #linux #permissions
