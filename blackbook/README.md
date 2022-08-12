@@ -106,7 +106,7 @@
    remove read permissions for user
  * chmod -x
    remove executable for user, group, other
- * chown foo rando
+ * chown rando foo 
    change ownership of foo to rando
  * set -o vi
    set console to vi-mode
@@ -117,6 +117,23 @@
  * ls -l $(which sudo)
    list perms for sudo command
    $() = command substitution
+ * sudo su -
+   effectively login as root without logging out
+   the dash gives you a login shell
+ * sudo su - foo
+   effectively login as foo
+ * mv foo other
+   change file/directory foo name to other (or move)
+ * cp foo other
+   copy file/directory foo to other
+ * touch 
+   create new text file or update last modified timestamp
+ * rmdir foo 
+   remove an empty foo directory
+ * rm -rf foo
+   remove directory or file foo and everything in it
+ * grep jill /etc/passwd
+   list onliy line containing jill
    
 ## Virtual Box Commands
 
