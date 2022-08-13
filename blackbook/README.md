@@ -46,6 +46,43 @@
  * cd - - change to previous directory
  * cd / - change to the root directory
  * clear - clear the screen
+ 
+## Finding Files
+
+ * find . - sort of the same as ls -l1
+ * find . -ls - same as above + more information
+ * find . -type f - list all the files in current directory
+ * find . -type f -name ".*" - list all the files that start with a dot
+ * find . -type d -name ".*" - list all directories that start with a dot
+ * find . -mtime -1 - find anything that was changed in the last 24 hours
+ * find . -mtime +1 - find anything that was changed older than last 24 hours
+ * find . -mmin -60 - find anything that was changed in the last 60 minutes
+ * find ~ -mmin -5 2>/dev/null - file changed in the last five minutes
+ * find directory -user root -perm 4000 -exec ls -ldb {} \; >&tmp/filename
+ 
+## Redirecting, Filtering, Paging, Piping, Silencing Errors
+
+ * less - page output to one screen (less is cleaner, has color)
+ * more - page output to one screen (more is older)
+ * find ~ -name '.*' 2>/dev/null | head | nl - find all dotfiles, supress error and only show top 5 line with linenumbers
+ * 2>/dev/null - silence errors
+ * head -5 foo - show top five lines of foo file
+ * tail -5 foo - show last five lines of foo file
+ * tac foo - reverse lines of foo file
+ * wc -l - print count of line
+ * nl - add line numbers to output
+ * sort - sort output
+ * tee /tmp/foo - both writes to a file foo and to stdout
+ * lolcat - colorize things
+ * cowsay - fun way to show output
+ 
+## Redirection operators
+
+ * > - (over) write to file
+ * >> - append lines to a file
+ * | - connect stdout to stdin
+ * < - send File to stdin
+
 
 ## Sudo Commands
 
