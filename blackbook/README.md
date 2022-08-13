@@ -51,6 +51,8 @@
 
  * find . - sort of the same as ls -l1
  * find . -ls - same as above + more information
+ * find . -name '???' - find file/directories with three letter name
+ * find . -path '*.git*' - find files/dirs with git anywhere in path
  * find . -type f - list all the files in current directory
  * find . -type f -name ".*" - list all the files that start with a dot
  * find . -type d -name ".*" - list all directories that start with a dot
