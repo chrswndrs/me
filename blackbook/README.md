@@ -35,6 +35,7 @@
  * `rmdir foo` - remove an empty foo directory
  * `rm -rf foo` - remove directory or file foo and everything in it
  * `grep jill /etc/passwd` - list onliy line containing jill
+ * `file foo` - gives Information on what kind of file foo is
 
 ## Navigation Commands, Copying / Moving Files
 
