@@ -1,6 +1,6 @@
 # What is a Hardlink?
 
-tk
+A hard link is a manually created entry in a directory that points to an already existing inode.
 
 - can be get with 'ls -l `which nvi`'
 - indicated before the user group
