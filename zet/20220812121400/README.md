@@ -18,6 +18,6 @@ setuid is how sudo works, -rwsr-xr-x 1 root root 232408 Feb 14 11:48 /usr/bin/su
 
 
 Reference:
-- 
+ - https://linuxhandbook.com/linux-file-permissions/
 
-    #unix #linux #permissions
+       #unix #linux #permissions
