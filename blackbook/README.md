@@ -138,6 +138,13 @@
 * `ssh user@ip` -  to login over ssh to a running machine
 * `scp foo target:` - copy foo from host to remote target home dir (def)
 
+## ed Commands
+
+* `a` - append Line etc.  
+* `q` - quit ed
+* `.` - last line, e.g a "text to be appended" . 
+* tk -> check cheatsheet and update
+
 ## Vim Commands
 
 * ':r `which vic`' - reads to content from the vic bash script into the current buffer
@@ -170,4 +177,6 @@ done
 10. THING
 ```
 
-## Docker Commands
+* `:set OPTION` - set an option for current buffer. e.g. for linenumbers `set -o nu`
+* `:help` - to get an comprehensive overview of what you can do with vim
+* `gw` - format that line {motion} moves over.
