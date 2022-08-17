@@ -145,6 +145,8 @@
 * `.` - last line, e.g a "text to be appended" . 
 * tk -> check cheatsheet and update
 
+## nvi Commands
+
 ## Vim Commands
 
 * ':r `which vic`' - reads to content from the vic bash script into the current buffer
@@ -179,4 +181,6 @@ done
 
 * `:set OPTION` - set an option for current buffer. e.g. for linenumbers `set -o nu`
 * `:help` - to get an comprehensive overview of what you can do with vim
-* `gw` - format that line {motion} moves over.
+* `gw` - format the line {motion} moves over.
+* `cc` - change the current line.
+
