@@ -167,15 +167,15 @@ done
 * it should look like the below part
 
 ```txt
-1. THING
-2. THING
-3. THING
-4. THING
-5. THING
-6. THING
-7. THING
-8. THING
-9. THING
+ 1. THING
+ 2. THING
+ 3. THING
+ 4. THING
+ 5. THING
+ 6. THING
+ 7. THING
+ 8. THING
+ 9. THING
 10. THING
 ```
 
