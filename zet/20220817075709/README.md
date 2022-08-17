@@ -4,6 +4,7 @@ tk
 
 
 Related:
+ - https://www.esecurityplanet.com/applications/whitelisting-vs-blacklisting-which-is-better/
 
 
       #Whitelist #Blacklist #Security
