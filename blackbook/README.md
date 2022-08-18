@@ -184,3 +184,7 @@ done
 * `gw` - format the line {motion} moves over.
 * `cc` - change the current line.
 
+## Bash Scripting
+
+* `echo Foo` - print `Foo` to standard output
+* `echo $?` - display last return value
