@@ -7,6 +7,9 @@ in the sentence above.
 
 It runs the programm and take the shell-script as its parent.
 
+If you use command substitution, in every way it's like a seperate script, with seperate
+scope and everything it does inherrit the parent.
+
 Related:
  - `man bash`, `/command substitution` or `/Parameter Expansion`
 
