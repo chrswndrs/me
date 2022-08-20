@@ -2,7 +2,7 @@
 
 `ssh-keygen -t ed25519 -C "your_email@example.com"`
 
-If you're on Mac do: `ssh-add ~/.ssh/id_rsa`
+If you're on Mac do: `ssh-add -K ~/.ssh/YOUR-KEY`, this will add the key to keychain and prevent password prompting.
 
 Related:
  - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
