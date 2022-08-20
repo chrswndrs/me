@@ -26,5 +26,6 @@ To put everything together, here's the how-to version of "the most important que
 
 Related:
  - https://www.unstumped.blog/the-most-important-question/
+ - https://avthar.com/blog/jw-curation
 
     #journaling #joshWaitzkin #miq
