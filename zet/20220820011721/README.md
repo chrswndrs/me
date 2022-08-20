@@ -14,4 +14,4 @@ The purpose stays the same, control and quality movement. Working on thoracic mo
 Related: 
  - https://youtu.be/g7vIe6I6bHo?list=PL2vmmSBIOcwATiAq8787HuYuJSbuNjK3R
 
-    #BJJ #spine #mobilization #1
+    #BJJ #spine #mobility #1
