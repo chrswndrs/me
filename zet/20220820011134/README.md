@@ -1,4 +1,4 @@
-# How do I Mobilize Wrists?
+# How do I mobilize my Wrists?
 
 The wrist is involved in mainly 4 movements: flexion, extension, pronation, and supination. 
 The flexors muscles tend to get tight due to the gripping movements repeated in BJJ.
