@@ -1,6 +1,6 @@
 # How do I do 90/90 Hips?
 
-**3x 10-15 reps**
+***3x 10-15 reps***
 
 The 90/90 hip drill will improve your hip mobility for BJJ, just make sure you don’t 
 rush through it and go as slow as possible. By working on this movement, you will improve
