@@ -1,4 +1,4 @@
-# How do you generate a ssh key
+# How do you generate a ssh key?
 
 `ssh-keygen -t ed25519 -C "your_email@example.com"`
 
