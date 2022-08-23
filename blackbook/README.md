@@ -107,7 +107,7 @@
  * `sudo su -` - effectively login as root without logging out the dash gives you a login shell
  * `sudo su - foo` - effectively login as foo
 
- ## Permission Commands
+## Permission Commands
 
  * `stat -c '%a'` - to see octal permissions
  * `chmod u+r` - give read permissions to user
@@ -137,109 +137,3 @@
 
 * `ssh user@ip` -  to login over ssh to a running machine
 * `scp foo target:` - copy foo from host to remote target home dir (def)
-
-## ed Commands
-
-* `a` - append Line etc.  
-* `q` - quit ed
-* `.` - last line, e.g a "text to be appended" . 
-* tk -> check cheatsheet and update
-
-## nvi Commands
-
-## Vim Commands
-
-* ':r `which vic`' - reads to content from the vic bash script into the current buffer
-* `!!` - puts you in ':.!', you write ':.!bash' to send the current line to bash and replace that line w/ the output
-* `dap` - delete around paragraph, to make the whole paragraph pastable.
-* `}` - jump to end of paragraph.
-      * `}` and then `!!` and then `.,.!bash` sends the whole paragraph to the bash and replace with the output
-```sh
-for i in {1..10}; do
-  echo $i. THING
-done
-```
-* if the above is in shell buffer, get your cursor to beginning of for:
- - then do `}` to jump to end of paragraph (done)
- - then do `!!` you should see `:.,.+2!` in the command prompt (vim)
- - then type bash after the ! to send it bash and replace with output
-
-* it should look like the below part
-
-```txt
- 1. THING
- 2. THING
- 3. THING
- 4. THING
- 5. THING
- 6. THING
- 7. THING
- 8. THING
- 9. THING
-10. THING
-```
-
-* `:set OPTION` - set an option for current buffer. e.g. for linenumbers `set -o nu`
-* `:help` - to get an comprehensive overview of what you can do with vim
-* `gw` - format the line {motion} moves over.
-* `cc` - change the current line.
-* `~` - Make character uppercase.
-
-## Bash Scripting
-
-* `echo Foo` - print `Foo` to standard output
-* `echo $?` - display last return value
-* `printf` - print with escapes and formatting
-
-## Docker Cheat sheet
-
-### Build Docker images
-```bash
-cd /path/to/Dockerfile
-docker build . 
-``` 
-
-### View all running processes
-```bash
-docker ps
-```
-
-### View all processes
-```sh
-docker ps -a
-```
-
-### Run an image in a new Container
-```sh
-docker run -d <image-name>
-```
-
-### Run an image in interactive mode with the command /bin/bash
-```sh
-docker run -it <image-name> /bin/bash
-```
-
-### Run an image in interactive mode with the command /bin/bash and link
-the Ports
-```sh
-docker run -it --link <docker-container-name>:<docker-container-alias>
-<image-name> /bin/bash
-```
-
-### Run an ENTRYPOINT command in interactive mode with command /bin/bash
-```sh
-docker run --entrypoint /bin/bash -i -t <image_name>
-```
-
-### Run an image in interactive mode with the command /bin/bash
-mounting the host directory /var/app/current to the container
-directory /usr/src/app
-```sh
-docker run -it -v /var/app/current:/usr/src/app <image_name> /bin/bash
-```
-
-### Run an image in interactive mode with the command /bin/bash
-setting the environments variables FOO and BAR
-```sh
-docker run -it -e FOO=foo -e BAR=bar <image_name> /bin/bash
-```
