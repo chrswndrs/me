@@ -183,6 +183,7 @@ done
 * `:help` - to get an comprehensive overview of what you can do with vim
 * `gw` - format the line {motion} moves over.
 * `cc` - change the current line.
+* `~` - Make character uppercase.
 
 ## Bash Scripting
 
