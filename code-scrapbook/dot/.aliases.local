@@ -1,0 +1,15 @@
+alias lv='~/.local/bin/lvim'
+alias vi='/usr/local/bin/vim'
+alias nvi='/usr/local/bin/vi'
+alias getnf='~/Documents/dev/getnf/getnf'
+
+alias rg="rg --type-add 'web:*.{html,css,js}'"
+
+alias jou='vim ~/Documents/journal/$(date "+%d-%m-%Y").md.asc'
+alias miq='vim ~/Documents/journal/$(date -v-1d "+%d-%m-%Y").md.asc'
+
+alias chmox='chmod +x'
+
+alias '?'=duck
+alias '??'=google
+alias '???'=bing

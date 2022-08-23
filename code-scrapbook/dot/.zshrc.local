@@ -1,0 +1,68 @@
+# Set VI Mode for shell
+set -o vi
+# PATH Settings
+export PATH=$PATH:/usr/local/bin 
+export PATH=$PATH:.local/bin 
+export PATH="$HOME/.npm-packages/bin:$PATH"
+
+# path to opt folder where 3rd party lives (github)
+export PATH=$HOME/opt:$PATH
+export PATH=$HOME/go/bin:$PATH
+export PATH="$PATH:/usr/local/mongodb/bin"
+
+# Vim-gpg related
+GPG_TTY=`tty`
+export GPG_TTY=`tty`
+
+# Wakatime
+export PATH=$HOME:/usr/bin/local/wakatime:$PATH
+
+# aws-credential-helper-ecr
+# export PATH=/usr/local/bin/docker-credential-ecr-login:$PATH
+
+# ssh
+export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# Uncomment the following line to change how often to auto-update (in days).
+export UPDATE_ZSH_DAYS=10
+
+# Doom Emacs
+export PATH=$HOME/.emacs.d/bin:$PATH
+
+# FZF
+export FZF_DEFAULT_COMMAND="rg --files --hidden --follow --glob '!.git'"
+
+# Neovim Settings
+export NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vi'
+else
+  export EDITOR='vim'
+fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# place this after nvm initialization!
+autoload -U add-zsh-hook
+load-nvmrc() {
+  local node_version="$(nvm version)"
+  local nvmrc_path="$(nvm_find_nvmrc)"
+
+  if [ -n "$nvmrc_path" ]; then
+    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
+
+    if [ "$nvmrc_node_version" = "N/A" ]; then
+      nvm install
+    elif [ "$nvmrc_node_version" != "$node_version" ]; then
+      nvm use
+    fi
+  elif [ "$node_version" != "$(nvm version default)" ]; then
+    echo "Reverting to nvm default version"
+    nvm use default
+  fi
+}
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
