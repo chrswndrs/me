@@ -15,3 +15,4 @@ Annotated, Commented Code-Blocks for Explanation, extension for Lab Files, which
 ## Blackbook
 
 File containing bash commands that I used. Should turn into Zettels.
+Potential candidate for Anki Flashcards.
