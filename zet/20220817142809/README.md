@@ -11,7 +11,9 @@ The way to do it safely is to put an explicit path in the shebang.
 
 
 Related:
+ - https://docs.devincud.com/posts/linux-privilege-escalation/
+ - https://book.hacktricks.xyz/linux-hardening/privilege-escalation
+ - https://www.hackingarticles.in/linux-privilege-escalation-using-path-variable/
 
 
-
-    #Unix #Linux #env #shebang #Security
+    #Unix #Linux #env #shebang #path #Security
