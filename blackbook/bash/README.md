@@ -10,7 +10,8 @@
 * `declare` - declare variable type (in bash only integer, string, boolean)
 * `local` - set a variable to be local to function.
 * `unset` - unset a variable (clear scope and content)
-* ``
+* `watch` - watch for file changes
+* `entr` - watch arbitray file change
 
 # Tips
  * Get good with basic `vim` commands and just repeat with .
