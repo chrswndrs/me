@@ -14,6 +14,7 @@ Related:
  - https://docs.devincud.com/posts/linux-privilege-escalation/
  - https://book.hacktricks.xyz/linux-hardening/privilege-escalation
  - https://www.hackingarticles.in/linux-privilege-escalation-using-path-variable/
+ - https://jmmv.dev/2016/09/env-considered-harmful.html
 
 
     #Unix #Linux #env #shebang #path #Security
