@@ -12,3 +12,5 @@ myprogram > messages.out 2> messages.err
 
 In the construct 1> and 2> the number is the file descriptor, so 1 is STDOUT and 2 is STDERR.
 When no number is specified, STDOUT is assumed.
+
+    #bash #cookbook #o'reilly #2.8
