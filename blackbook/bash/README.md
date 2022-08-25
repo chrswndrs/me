@@ -12,6 +12,7 @@
 * `unset` - unset a variable (clear scope and content)
 * `watch` - watch for file changes
 * `entr` - watch arbitray file change
+* `bc` - an arbitrary precision calculator
 
 # Tips
  * Get good with basic `vim` commands and just repeat with .
