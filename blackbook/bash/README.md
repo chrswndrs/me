@@ -3,6 +3,14 @@
 * `echo Foo` - print `Foo` to standard output
 * `echo $?` - display last return value
 * `printf` - print with escapes and formatting
+* `alias` - give a nickname to a bash command
+* `export` - export a specific PATH to use
+* `exit` - set exit code
+* `return` - 
+* `declare` - declare variable type (in bash only integer, string, boolean)
+* `local` - set a variable to be local to function.
+* `unset` - unset a variable (clear scope and content)
+* ``
 
 # Tips
  * Get good with basic `vim` commands and just repeat with .
