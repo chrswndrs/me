@@ -16,6 +16,13 @@
   * `entr bash -c "clear;./greet NAME" <<< greet` - watch program greet plus input for changes
 * `bc` - an arbitrary precision calculator
 
+## Parameter Expansion
+
+* `${what#* } - cut everything to the first space in what (left to right)
+* `${waht##* } - cut everything to the last word. (left to right)
+* `${what% *} - cut everything to the first space in what (right to left)
+* `${what%% *} - cut everything to the first word. (right to left)
+
 # Tips
  * Get good with basic `vim` commands and just repeat with .
  * Never use extensions on executables on UNIX/Linux
