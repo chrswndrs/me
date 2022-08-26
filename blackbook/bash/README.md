@@ -29,7 +29,12 @@
 * `${parameter^^pattern}` - All Caps.
 * `${parameter,pattern}` - lowercase first character.
 * `${parameter,,pattern}` - All lowercase.
-       
+* `"$@"` - pass arguments as separate words.
+* `"$*"` - pass arguments squished together as single word.
+* `set -e`- stop running when *any* error occurs
+* `set -exo pipefail` - for debugging add/remove x in option. add -exo for debugging.
+ * `set -o pipefail` - the return value of the pipeline is the status of last command to exit with non-zero status  
+        
 # Tips
  * Get good with basic `vim` commands and just repeat with .
  * Never use extensions on executables on UNIX/Linux
