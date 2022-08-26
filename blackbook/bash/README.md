@@ -19,11 +19,17 @@
 ## Parameter Expansion
 
 * `${what} - The value of what is substituted.
-* `${what#* } - cut everything to the first space in what (left to right)
-* `${waht##* } - cut everything to the last word. (left to right)
-* `${what% *} - cut everything to the first space in what (right to left)
-* `${what%% *} - cut everything to the first word. (right to left)
-
+* `${what#* } - cut everything to the first space in what (left to right).
+* `${waht##* } - cut everything to the last word. (left to right).
+* `${what% *} - cut everything to the first space in what (right to left).
+* `${what%% *} - cut everything to the first word. (right to left).
+* `${what//o/0} - Replace every occurance of `o` with `0`.
+* `${what/toBeReplaced/withThis/}` - Replace `toBeReplaced` with `withThis`.
+* `${parameter^pattern}` - uppercase first character.
+* `${parameter^^pattern}` - All Caps.
+* `${parameter,pattern}` - lowercase first character.
+* `${parameter,,pattern}` - All lowercase.
+       
 # Tips
  * Get good with basic `vim` commands and just repeat with .
  * Never use extensions on executables on UNIX/Linux
