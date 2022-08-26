@@ -13,7 +13,7 @@
 * `watch` - watch for file changes
 * `entr` - watch arbitray file change
   * `entr bash -c "clear;./greet" <<< greet` - watch program greet for changes
-  * * `entr bash -c "clear;./greet NAME" <<< greet` - watch program greet plus input for changes
+  * `entr bash -c "clear;./greet NAME" <<< greet` - watch program greet plus input for changes
 * `bc` - an arbitrary precision calculator
 
 # Tips
