@@ -18,6 +18,7 @@
 
 ## Parameter Expansion
 
+* `${what} - The value of what is substituted.
 * `${what#* } - cut everything to the first space in what (left to right)
 * `${waht##* } - cut everything to the last word. (left to right)
 * `${what% *} - cut everything to the first space in what (right to left)
