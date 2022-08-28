@@ -33,7 +33,12 @@
 * `"$*"` - pass arguments squished together as single word.
 * `set -e`- stop running when *any* error occurs
 * `set -exo pipefail` - for debugging add/remove x in option. add -exo for debugging.
- * `set -o pipefail` - the return value of the pipeline is the status of last command to exit with non-zero status  
+* `set -o pipefail` - the return value of the pipeline is the status of last command to exit with non-zero status  
+- `$#` - retrieve the length or the number of arguments passed via cli
+- `&>` - redirects both the standard output and the standard error
+- `$?` - get the exit status of the command previously passed.
+- `$$` - stores the PID of the current shell
+- `2>&1` - redirects both standard output and standard error to STDOUT
         
 # Tips
  * Get good with basic `vim` commands and just repeat with .
