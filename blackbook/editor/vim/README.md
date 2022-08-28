@@ -35,3 +35,5 @@ done
 * `gw` - format the line {motion} moves over.
 * `cc` - change the current line.
 * `~` - Make character uppercase.
+- `CTRL-L` - clear the previously highlight, e.g. word searched w/ `*` (screen).
+
