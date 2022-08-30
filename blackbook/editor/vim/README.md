@@ -36,4 +36,36 @@ done
 * `cc` - change the current line.
 * `~` - Make character uppercase.
 - `CTRL-L` - clear the previously highlight, e.g. word searched w/ `*` (screen).
+- `gUw` - Uppercase to the end of word
+- `gUiw` - Uppercase entire word
+- `guap` - Lowercase paragraph
+- `zt` - reposition viewport so your current line is at the top
+- `zz` - reposition viewport to middle
+- `zb` - reposition viewport to bottom
+- `:wa` - write all unsaved buffers
+- `:xa/:wqa` - write all and quit
+- `:qa!` - Quit Vim without saving
+- `%s/https.*/[&]()/g` - Use & in your replacement pattern to insert the
+  matched text.
+- `d/foo` - delete forward until foo
+- `c/\d` - change to next number
+- `ctrl-o` - moves backwards through the jump list
+- `ctrl-i` - moves forward through the jump list
+- `:reg` - shows you the contents of your registers
+- `:g/pattern/d` - Remove lines matching pattern
+- `:g!/pattern/d` - Remove lines that do NOT match
+- `da"` - Delete around quotes
+- `di]` - Delete Inside brackets
+- `ci(` - Change Inside braces
+- `vaw` - Visually select Around Word
+- `ctrl-a`, `ctrl-x` - will increment or decrement the next number on
+  the line
+- `:%!` - to filter the entire buffer through an external command.
+- `ctrl-h` - Delete previous char in Insert Mode.
+- `ctrl-w` - Delete previous word in Insert Mode. 
+- `ctrl-u` - Delete entire line (except indent) in Insert Mode
+- `ctrl-t` - Indent the current line in Insert Mode
+- `ctrl-d` - Back Indent the current line in Insert Mode
+- `vim some_file.name +/your_pattern` - Open a file directly to a
+  pattern
 
