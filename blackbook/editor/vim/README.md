@@ -68,4 +68,38 @@ done
 - `ctrl-d` - Back Indent the current line in Insert Mode
 - `vim some_file.name +/your_pattern` - Open a file directly to a
   pattern
+- instead of using `.*` use `\.{-}` to more accurately match pattern 
+- `ga` - see details about the character under the cursor. (hex code)
+- `:colder` - previous Quickfix list
+- `:cnewer` - next Quickfix list
+- Pasting into Vim from `StackOverflow`? Avoid indent fail by using `set
+  :paste` or use the system clipboard with `"*p`.
+- `gv` - reselect the last visual selection
+- `:%norm` - to perform a normal mode command on every line of the file.
+- `g;` - to jump back to your last change in Vim
+- `:changes` - Show list of changes
+- `g,` - jump to next change
+- `:sort` - sort all lines
+- `:sort!` - sort in reverse
+- `:sort u` - remove dupes and sort
+- `:sort i` - ignore case
+- `:sort n` - sort numerically
+- `]m` - jump to beginning of next method
+- `]M` - end of next method
+- `[m` - beginning of previous method
+- `[M` - end of previous method
+- `:&` - repeat but reset flags
+- `:&&` - repeat and keep flags
+- `:%&` - repeat on file, reset flags
+- `:%&&` - repeat on file, keep flags
+- `:g/MATCH/#|s/MATCH/REPLACE/gl#` - Instead of confirming every
+  substitution, print them all out for a quick review at a glance.
+- `%S/pattern/replacement/g` - Use Abolish to preserve the original case
+  during substitution. 
 
+## `Netrw` - Vim's built in filesystem plugin
+
+- `%` - Create file
+- `d` - Create directory
+- `D` - Delete
+- `R` - Rename
