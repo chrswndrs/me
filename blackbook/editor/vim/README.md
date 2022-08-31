@@ -121,6 +121,8 @@ done
 - `:s#/usr/local/bin#/usr/sbin#g` - this avoids escaping slashes
 - `:undolist` - view the change tree
   - `g-`, `g+` - navigate the undo branches
+- `/b\%[acon]` - search for optional, sequential match.
+  - for more `:h\%[]`
 
 ## `Netrw` - Vim's built in filesystem plugin
 
