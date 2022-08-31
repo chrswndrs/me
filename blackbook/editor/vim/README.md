@@ -4,6 +4,9 @@
 
 - Did you know that Vim can increment hex, binary, and octal numbers
   with `ctrl-x` and `ctrl-a`? In fact, it can even increment letters.
+- Did you know you can use any regex delimiter in your pattern
+  substitution? No need to use / at all, try # instead (check bindings
+  section).
 
 ## Bindings
 * ':r `which vic`' - reads to content from the vic bash script into the current buffer
@@ -114,7 +117,6 @@ done
 - `:s#/usr/local/bin#/usr/sbin#g` - this avoids escaping slashes
 - `:undolist` - view the change tree
   - `g-`, `g+` - navigate the undo branches
-
 
 ## `Netrw` - Vim's built in filesystem plugin
 
