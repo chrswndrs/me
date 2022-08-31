@@ -1,5 +1,11 @@
 # Vim Commands
 
+## Tips
+
+- Did you know that Vim can increment hex, binary, and octal numbers
+  with `ctrl-x` and `ctrl-a`? In fact, it can even increment letters.
+
+## Bindings
 * ':r `which vic`' - reads to content from the vic bash script into the current buffer
 * `!!` - puts you in ':.!', you write ':.!bash' to send the current line to bash and replace that line w/ the output
 * `dap` - delete around paragraph, to make the whole paragraph pastable.
@@ -96,6 +102,19 @@ done
   substitution, print them all out for a quick review at a glance.
 - `%S/pattern/replacement/g` - Use Abolish to preserve the original case
   during substitution. 
+- `:h ex-cmd-index` - get a list of all EX commands.
+- `:map`, `:map!`, `:nmap` - quickly check the current mappings
+- Use `ctrl-k +2 letters` to add special characters:
+  - `oo` - bullet
+  - `Db` - diamond bullet
+  - `Pd` - pound sterling
+  - `Eu` - euro symbol
+  - `-N` - en dash
+  - `-M` - em
+- `:s#/usr/local/bin#/usr/sbin#g` - this avoids escaping slashes
+- `:undolist` - view the change tree
+  - `g-`, `g+` - navigate the undo branches
+
 
 ## `Netrw` - Vim's built in filesystem plugin
 
