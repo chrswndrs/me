@@ -7,6 +7,8 @@
 - Did you know you can use any regex delimiter in your pattern
   substitution? No need to use / at all, try # instead (check bindings
   section).
+- Interesting Substitution Reference:
+  https://www.reddit.com/r/vim/comments/h01yhh/late_night_monster_regex_capitalize_all_sentences/
 
 ## Bindings
 * ':r `which vic`' - reads to content from the vic bash script into the current buffer
