@@ -58,6 +58,6 @@ constructor(private service: HeroService) {}
 ```
 Related: 
 - https://angular.io/guide/dependency-injection-overview  
-- Observables tk Zet
+- 20220902162011/README.md 
 
       #Angular #dependencyInjection #@Injectable
