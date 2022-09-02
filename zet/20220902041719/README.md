@@ -1,8 +1,9 @@
 # What is `Fluentd`?
 
-`Fluentd` is a cross platform open-source data collector, which lets you
-unify the data collection and consumption for a better use and
-understanding of data.
+`Fluentd` is a fully free and fully open-source log collector that
+instantly enables you to have a 'Log Everything' architecture with 125+
+types of systems. `Fluentd` treats logs as `JSON`, a popular
+machine-readable format
 
 Key features:
 
