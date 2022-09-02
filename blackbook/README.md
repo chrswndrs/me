@@ -1,6 +1,7 @@
 # Linux Commands
 
 * `man` - show manual information about a command
+- `traceroute URL` - print the route packets take to network host
 
 ## Listing Files / Info about Files, Directories, System
 
