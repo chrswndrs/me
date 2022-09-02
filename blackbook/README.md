@@ -137,3 +137,7 @@
 
 * `ssh user@ip` -  to login over ssh to a running machine
 * `scp foo target:` - copy foo from host to remote target home dir (def)
+
+# Unix Commands
+
+- `lsof -nP -iTCP -sTCP:LISTEN` - check which ports are used
