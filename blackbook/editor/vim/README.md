@@ -122,7 +122,8 @@ done
 - `:undolist` - view the change tree
   - `g-`, `g+` - navigate the undo branches
 - `/b\%[acon]` - search for optional, sequential match.
-  - for more `:h\%[]`
+  - for more `:h\%[]`.
+- `ctrl-x`, `ctrl-f` - to autocomplete filenames in Vim.
 
 ## `Netrw` - Vim's built in filesystem plugin
 
