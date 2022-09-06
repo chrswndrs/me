@@ -136,6 +136,7 @@
 
 ## SSH Commands
 
+- `ssh-keygen -t ed25519 -C "your_email@example.com"` - generate a key
 * `ssh user@ip` -  to login over ssh to a running machine
 * `scp foo target:` - copy foo from host to remote target home dir (def)
 
