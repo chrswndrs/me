@@ -1,5 +1,9 @@
 # Docker Cheat sheet
 
+- `docker kill $(docker ps -q)` - Stop all running containers
+- `docker rm $(docker ps -a -q)` - remove all stopped containers
+- `docker rmi $(docker images -q)` - remove all images
+
 ## Build Docker images
 ```bash
 cd /path/to/Dockerfile
