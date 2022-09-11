@@ -125,6 +125,17 @@ done
   - for more `:h\%[]`.
 - `ctrl-x`, `ctrl-f` - to autocomplete filenames in Vim.
 
+## Spellchecking
+
+- `:set spell spelllang=de_de` - set spelllang to german.
+- `:setlocal spell spelllang=de_de` - set spell off in local buffer.
+- `:set nospell` - turn off spell correction.
+- `]s`, `[s` - move to a misspelled word.
+- `z=` - with cursor on misspelled word, this will suggest a list.
+- `zg` - add word to spell dictionary.
+- `zw` - marks word as incorrect.
+- `ctrl-p`, `ctrl-n` - abbreviations and mappings, and spell-checking
+  makes it a killer editor to write in.
 ## `Netrw` - Vim's built in filesystem plugin
 
 - `%` - Create file
