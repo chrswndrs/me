@@ -119,6 +119,16 @@
  * `chmod -x` - remove executable for user, group, other
  * `chown rando foo` - change ownership of foo to rando
 
+## Killing Commands
+
+ - `kill %%` - kills programs running in fg and spamming shell (you can
+   still type commands and get spammed by output from the cmd running in
+   fg)
+ - `pgrep watch -lf` - shows
+ - `pgrep` - searches for a process by its name. Usefull if you have
+   zombie processes running.
+ - `pkill foo` - Only kills foo.
+
 ## Setting Options for Shell, Standard Output
 
  * `set -o vi` - set console to vi-mode
