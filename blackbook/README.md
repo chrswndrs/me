@@ -130,7 +130,6 @@
  - `pkill foo` - Only kills foo.
 
 ## Setting Options for Shell, Standard Output
-
  * `set -o vi` - set console to vi-mode
  * `set -o noclobber` - stop from blowing away files
  * `echo foo` - write foo to standard output
@@ -149,6 +148,10 @@
 - `ssh-keygen -t ed25519 -C "your_email@example.com"` - generate a key
 * `ssh user@ip` -  to login over ssh to a running machine
 * `scp foo target:` - copy foo from host to remote target home dir (def)
+
+## Interesting Programs
+
+ - `irssi` - cli irc chat
 
 # Unix Commands
 
