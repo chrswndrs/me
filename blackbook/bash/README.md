@@ -42,6 +42,13 @@
 * `set -e`- stop running when *any* error occurs
 * `set -exo pipefail` - for debugging add/remove x in option. add -exo for debugging.
 * `set -o pipefail` - the return value of the pipeline is the status of last command to exit with non-zero status  
+- `cat <<EOM STRING EOM` - prints the STRING exactly as what you have
+  here. Its called a here variable.
+- `cat <<'EOM' STRING EOM` - will not do replacement.
+- `:` - empty operator, you can put it in functions in bash to prevent
+  errors.
+  - `: #TODO put something here` - this would be inside of a function.
+- `read line` - read a user line of input.
         
 # Tips
  * Get good with basic `vim` commands and just repeat with .
