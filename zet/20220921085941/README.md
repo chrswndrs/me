@@ -13,7 +13,16 @@ line-editing features (no command history, for example). Single-user
 mode also does not do any background processing, such as automatic
 checkpoints or replication.
 
+In postgresql, there is usually one database server on which all the
+modification relate operations and requests are served. Those changes
+are applied to other database servers called the slave servers or
+standby database servers. That means the master nodes are always the
+replicated data's senders while slave nodes receive the replicated data
+and apply the same changes over there.
+
 Related:
  - https://kinsta.com/de/blog/postgresql-replikation/#was-ist-postgresql-replikation
+ - PostgresSQL Replication | Guide to the Working of PostgreSQL
+   Replication
 
       #databases #postgresql #mirroring #data-persistency 
