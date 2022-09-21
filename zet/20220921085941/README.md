@@ -20,6 +20,31 @@ standby database servers. That means the master nodes are always the
 replicated data's senders while slave nodes receive the replicated data
 and apply the same changes over there.
 
+The master server is always a sending server, and all these settings are
+required to be set on that server, however in the case where the slave
+servers also function as sending servers, as in cascading, these
+settings need to be set on those servers too.
+
+- max_wal_senders(integer)
+  This parameter specifies the maximum number of allowed connections
+  with other slave database servers at a single instance are allowed.
+- wal_keep_segments(integer)
+  The standby servers require 16-megabytes segments of past log files
+  that are stored in the pg_xlog directory for streaming replication in
+  Postgres. This parameter specifies the minimum number of those
+  segments that are required by the standby servers for proper
+  replication to be performed. This parameter's value can either be set
+  from the server command line prompt or postgresql.conf configuration
+  file of PostgreSQL.
+- replication_timeout(integer)
+  If the standby servers are crashed, or some network issues occur, then
+  the connection to that server needs to be terminated. This parameter
+  specifies that after how much time span the connection should be
+  terminated if no response is being received. This parameter's default
+  value is set to 60 seconds and can only be modified from the server
+  command line prompt or postgresql.conf configuration file of
+  PostgreSQL.
+
 Related:
  - https://kinsta.com/de/blog/postgresql-replikation/#was-ist-postgresql-replikation
  - PostgresSQL Replication | Guide to the Working of PostgreSQL
