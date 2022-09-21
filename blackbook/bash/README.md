@@ -23,6 +23,8 @@
 
 * `"$@"` - pass arguments as separate words.
 * `"$*"` - pass arguments squished together as single word.
+- `=~` - additional binary operator for regex, checks if right matches
+  left, when yes exit 0, if not exit 1, if matching is not correct 2
 - `$#` - retrieve the length or the number of arguments passed via cli
 - `&>` - redirects both the standard output and the standard error
 - `$?` - get the exit status of the command previously passed.
