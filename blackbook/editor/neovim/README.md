@@ -27,6 +27,83 @@
 - `<Space>la` - Code Action 
 - `<Space>bj` - Jump 
 
+
+# Avimitin Keymappings
+
+- `Space` - leader key
+- `;` - leader key
+- `H` - Go to the first character of the line
+- `L` - Go to the last character of the line
+- `J` - Go down 5 lines
+- `K` - Go up 5 lines
+- `W` - Go 5 words forward
+- `B` - Go 5 words Backward
+
+## Cursor move in insert mode
+
+- `ctrl h` - Act like Home
+- `ctrl e` - Act like End
+- `ctrl f` - Act like w in normal mode
+- `ctrl b` - Act like b in normal mode
+
+## Windows Navigation
+
+- `;k` - Go to the window above
+- `;j` - Go to the window below
+- `;h` - Go to the right window
+- `;l` - Go to the left window
+
+## Windows resize
+
+- `ctrl shift up` - Resize the top border of window
+- `ctrl shift down` - Resize the bottom border of window
+- `ctrl shift left` - Resize the left border of window
+- `ctrl shift right` - Resize the right border of window
+
+## Search
+
+- `N` - Go to the before matches
+- `n` - Go to the following matches
+- `ESC` - Close the search highlight
+
+## Tabpages
+
+- `ctrl-t h` - Go to the previous tab
+- `ctrl-t l` - Go to the next tab
+- `ctrl-t n` - Create new tab
+
+## Copy and Paste
+
+- `y` - Copy to register
+- `p` - Paste from the register
+- `ctrl-p` - Paste from the clipboard (In normal and insert mode)
+- `ctrl-y` - Copy to clipboard (Only in visual mode)
+
+## Text move
+
+- `<` - Reduce one indent level (In normal and selection mode)
+- `>` - Increase one indent level (In normal and selection mode)
+
+## Save and Quit
+
+- `;w` - Save
+- `;q` - Quit buffer (Auto quit nvim when last buffer in deleted)
+- `;q` - Quit neovim, windows, tabs
+- `Alt ;` - Leave the insert mode (Same as ESC) [not working properly]
+
+## Scrolling
+
+- `ctrl j` - Scroll down
+- `ctrl k` - Scroll up
+- `ctrl f` - Like "PgDown" key, scroll down half a page
+- `ctrl b` - Like "PgUp" key, scroll up half a page
+- `ctrl y` - Scroll up, but cursor will not move
+- `ctrl e` - Scroll down, but cursor will not move
+
+## Other
+
+- `ctrl-z` - Reverse changes
+
 # Mapped Commands in `Neovide`
 
 ## `Neovide`::Core:
