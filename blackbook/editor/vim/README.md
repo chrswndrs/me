@@ -20,6 +20,8 @@
 * ':r `which vic`' - reads to content from the vic bash script into the current buffer
 * `!!` - puts you in ':.!', you write ':.!bash' to send the current line to bash and replace that line w/ the output
 * `dap` - delete around paragraph.
+- `das` - delete a sentence with cursor anywhere in sentence.
+- `cas` - change a sentence
 * `d/PATTERN` - delete to the next match of PATTERN.
 * `d?PATTERN` - delete to the previous match of PATTERN.
 * `yap` - yank around paragraph.
