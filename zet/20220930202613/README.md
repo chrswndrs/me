@@ -18,5 +18,6 @@ Related:
  - `#4`
  - `#5`
  - `#6`
+ https://tim.blog/2013/05/11/how-to-gain-20-pounds-in-28-days-the-extreme-muscle-building-secrets-of-ufc-fighters/
 
       #Training #Muscle #Strength #Mass #gainingPriciples #1of6
