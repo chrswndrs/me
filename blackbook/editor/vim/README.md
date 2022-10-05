@@ -124,6 +124,7 @@
 * `t.` - jump before occurrence of `.`.
 * `T.` - jump before previous occurrence of `.`.
 
+
 ## `Netrw` - Vim's built in filesystem plugin
 
 * `%` - Create file

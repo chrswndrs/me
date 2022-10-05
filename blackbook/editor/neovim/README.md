@@ -1,5 +1,15 @@
 # Lunar Vim config
 
+## Code folding
+
+- `zR` - after configuring folding, this folds the whole file.
+- `za` - toggle folding on current line.
+- `zA` - same as `za` except it toggles files beneath too.
+- `zc` - Close the current fold. 
+- `zC` - same as above includes nested folds.
+- `zo` - open the current fold. 
+- `zO` - same as above but opens nested folds too.
+
 ## Telescope Default Mappings
 
 - `<C-n>/<Down>` - Next item
