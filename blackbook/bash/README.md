@@ -18,6 +18,7 @@
 - `(echo at the beginning; cat hello.txt) > hello.txt_ && mv
   hello.txt{_,}` - put "at the beginning into the beginning of the file
   hello.txt
+- `$OSTYPE` stores the name of the Operating System.
 
 ## Parameter Expansion
 
