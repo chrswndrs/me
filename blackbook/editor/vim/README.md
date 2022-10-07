@@ -16,7 +16,9 @@
 
 ## Bindings
 
-* `\`. ` - backtick dot; takes you to the last cursor position after reopening the file.
+- `:changes` - to see the change list
+  - `g;`, `g,` - to jump to the locations of the changes
+* `\`.` - backtick dot; takes you to the last cursor position after reopening the file.
 * ':r `which vic`' - reads to content from the vic bash script into the current buffer
 * `!!` - puts you in ':.!', you write ':.!bash' to send the current line to bash and replace that line w/ the output
 * `dap` - delete around paragraph.
