@@ -13,6 +13,13 @@
 * Learning Vim Regex:
   https://dev.to/iggredible/learning-vim-regex-26ep
 * http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
+- Use `ctrl-k` + 2 letters to add special chars:
+  - `oo -> bullet`
+  - `Db -> diamond bullet`
+  - `Pd -> pound`
+  - `Eu -> Euro`
+  - `-N -> en dash` 
+  - `-M -> em` 
 
 ## Bindings
 
