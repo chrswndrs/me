@@ -26,6 +26,10 @@
 
 ## Bindings
 
+- `=`, `==` - indent code
+  - `4==` - indent current line and next 3
+  - `=ap` - indent around paragraph
+  - `=%` - indent to end of method
 - `:changes` - to see the change list
   - `g;`, `g,` - to jump to the locations of the changes
 * `\`.` - backtick dot; takes you to the last cursor position after reopening the file.
