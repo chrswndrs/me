@@ -20,6 +20,9 @@
   - `Eu -> Euro`
   - `-N -> en dash` 
   - `-M -> em` 
+- Instead of confirming every substitution, print them all out for a
+  quick review at a glance:
+  - `:g/MATCH/#|s/MATCH/REPLACE/g|#`
 
 ## Bindings
 
