@@ -1,5 +1,7 @@
 # Regular Expression
 
+The acronym PCRE stands for 'Perl Compatible Regular Expressions'
+
 regex is a pattern-matching language
 
 system tools with regex:
