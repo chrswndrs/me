@@ -4,6 +4,9 @@
 - `docker rm $(docker ps -a -q)` - remove all stopped containers
 - `docker rmi $(docker images -q)` - remove all images
 
+- `cat /etc/issue` - INSIDE CONTAINER: gives you the os version your
+  running on.
+
 ## Build Docker images
 ```bash
 cd /path/to/Dockerfile
