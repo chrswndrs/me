@@ -6,5 +6,7 @@ is safer.
 ADD: has other features to it.
  - can add github url
  - can untar, unzip, etc.
+ Add can go out to the network and can download files. Add can also
+ automatically unzip or untar a file.
 
       #Docker #container #build #Dockerfile #COPY #ADD #devops
