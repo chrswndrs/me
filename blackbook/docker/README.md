@@ -7,6 +7,10 @@
 - `cat /etc/issue` - INSIDE CONTAINER: gives you the os version your
   running on.
 
+- `docker history container_name` - show history of what was run on
+  container.
+- `docker top CONTAINER_HASH` - same as `exec ps aux`.
+
 ## Build Docker images
 ```bash
 cd /path/to/Dockerfile
