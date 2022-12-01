@@ -8,5 +8,8 @@ AWS: Do charge for Master.
   containers.
 - Pod: two or three containers that need to be deployed together.
 - Service: is a group of pods that make up one backend.
+- Deployments: is where you describe what you want the state of your
+  pods to be and then kubernetes works to get your cluster into that
+  state.
 
         #docker #kubernetes #overview #terms
