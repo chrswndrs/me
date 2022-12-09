@@ -10,6 +10,11 @@ terminal on your machine with `ngrok http <PORT>`.
 connectivity, security, and observability to your apps with no code
 changes."
 
+*Put `localhost` on the internet*
+ngrok is the fastest way to put your app on the internet. Test mobile
+apps against your development backend. Build webhook consumers and demo
+websites without deploying.
+
  Related:
   - https://ngrok.com/
   - https://ngrok.com/docs
