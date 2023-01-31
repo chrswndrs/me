@@ -1,3 +1,4 @@
+* 2023-01-31 13:57:40Z [How to check for OS type in bash?](../20221005223339)
 * 2023-01-31 12:56:04Z [Sorry, planned but not yet available](../0)
 * 2023-01-31 12:55:50Z [What is the sequence of cron asteriks?](../20221223102120)
 * 2023-01-31 12:55:50Z [How do you copy files to a remote server from terminal?](../20221221100744)
@@ -30,7 +31,6 @@
 * 2023-01-31 12:55:50Z [What is lodash?](../20221031001620)
 * 2023-01-31 12:55:50Z [What is a Factory Method in TypeScript](../20221021125409)
 * 2023-01-31 12:55:50Z [What is Fail2ban?](../20221006005605)
-* 2023-01-31 12:55:50Z [How to check for OS type in bash?](../20221005223339)
 * 2023-01-31 12:55:50Z [Why did the Greeks have to words for Time?](../20221004014340)
 * 2023-01-31 12:55:50Z [The Warrior Workout - Week 4](../20221001151005)
 * 2023-01-31 12:55:50Z [The Warrior Workout - Week 3](../20221001145609)
