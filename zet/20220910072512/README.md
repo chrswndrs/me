@@ -1,4 +1,4 @@
-# Everyday Types in TypeScript Less Common Primitives
+# Everyday Types in TypeScript: Less Common Primitives
 
 `biginit`: From `ES2020` onwards, there is a primitive in JavaScript
 used for very large integers `BigInit`.

@@ -1,3 +1,4 @@
+* 2023-01-31 22:36:08Z [Everyday Types in TypeScript: Less Common Primitives](../20220910072512)
 * 2023-01-31 13:58:24Z [How to check for OS type in bash?](../20221005223339)
 * 2023-01-31 12:56:04Z [Sorry, planned but not yet available](../0)
 * 2023-01-31 12:55:50Z [What is the sequence of cron asteriks?](../20221223102120)
@@ -70,7 +71,6 @@
 * 2023-01-31 12:55:50Z [What is a Transaction in Sentry?](../20220912121801)
 * 2023-01-31 12:55:50Z [What is a Project in Sentry?](../20220912120918)
 * 2023-01-31 12:55:50Z [GPG Key management on multiple machines](../20220912042043)
-* 2023-01-31 12:55:50Z [Everyday Types in TypeScript Less Common Primitives](../20220910072512)
 * 2023-01-31 12:55:50Z [Everyday Types in TypeScript Enums](../20220910071212)
 * 2023-01-31 12:55:50Z [Everyday Types in TypeScript null and undefined](../20220910055440)
 * 2023-01-31 12:55:50Z [Everyday Types in TypeScript Lieteral Inference](../20220910052734)
