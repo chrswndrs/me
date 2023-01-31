@@ -1,4 +1,4 @@
-* 2023-01-31 13:57:40Z [How to check for OS type in bash?](../20221005223339)
+* 2023-01-31 13:58:24Z [How to check for OS type in bash?](../20221005223339)
 * 2023-01-31 12:56:04Z [Sorry, planned but not yet available](../0)
 * 2023-01-31 12:55:50Z [What is the sequence of cron asteriks?](../20221223102120)
 * 2023-01-31 12:55:50Z [How do you copy files to a remote server from terminal?](../20221221100744)
