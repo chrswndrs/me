@@ -225,3 +225,6 @@ To execute the macro on visually selected lines, press V and the j or k
 until the desired region is selected. Then type :norm! @a and observe
 the that following input line is shown.
 - `:'<,'>norm! @a`
+
+- `:g/pattern/normal! @a`
+- `[number of times to apply the macro] @ [register]` -> `1000@q`
