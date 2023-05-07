@@ -17,6 +17,7 @@
  * `which ssh` - display full path to ssh program
  * `type ssh` - display what type of thing it is, shows if a command is a builtin or external command,
       better than which because you could see if the cmd is being overwritten (sec reason)
+ - type -a ssh - shows all instances of ssh
  * `who` - display who is logged in and how
  * `w` - display logger version of  who is logged in
  * `whoami` - print effective user name/id
