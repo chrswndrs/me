@@ -31,3 +31,38 @@
 ## Building Expertise
 
 ### Key Takeaways:
+
+  - *Stop Trying To "Be Good"*
+    Give yourself permission to screw up. Once you stop trying to be
+    good (and look smart), you can focus on tackling the exciting
+    challenges that will help you get better.
+
+  - *Sprint To Speed Up Mastery*
+    Set aside time to regular "sprints" where you work intensively on a
+    key project or skill without distraction. Then reward yourself with
+    a break.
+
+  - *Avoid The "OK Plateau"*
+    Focus on practicing the hard stuff when you're developing new
+    skills. As with weight lifting, you know you're making headway when
+    you feel the burn.
+
+  - *Hunger For Feedback*
+    Develop a method for gathering feedback-whether it's tracking the
+    numbers yourself or hiring a coach. No factor is more essential to
+    growth and learning.
+
+  - *Make Building Habits A Habit*
+    Try to change one key habit a month. If you can make the behaviors
+    that help you excel automatic, executing at the top of your game
+    becomes significantly easier.
+
+  - *Daily Observation Drives Progress*
+    Track your progress by journaling for a few minutes every day. The
+    practice will help you identify stumbling blocks, observe patterns,
+    and document successes. 
+
+## Cultivating Relationships
+
+### Key Takeaways:
+
