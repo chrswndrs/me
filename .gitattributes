@@ -1,4 +1,5 @@
 posts/**/** filter=git-crypt diff=git-crypt
 lab/**/** filter=git-crypt diff=git-crypt
 zet/**/** filter=git-crypt diff=git-crypt
+Notes/**/** filter=git-crypt diff=git-crypt
 
