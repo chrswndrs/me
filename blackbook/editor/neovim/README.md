@@ -156,4 +156,6 @@
 
 ## vimtex
 
-- `,ll` - compile and live preview in zathura
+- `,ll` - to start (or stop) compiling and live preview in zathura
+- `,lk` - to stop the compilation process.
+- `,lc` - to clear auxiliary files.
