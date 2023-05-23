@@ -160,3 +160,7 @@
 - `apropos foo` - will give you all manual pages talking about foo
 - `whatis foo` - will display a one line usage information 
 - `foo --help` - will display command usage information incl. flags.
+
+# Manjaro
+
+- `ctrl+alt+F3` - Start console instead of login screen
