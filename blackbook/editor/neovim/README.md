@@ -152,3 +152,8 @@
 - `,c<Space>` - Toggle comment for current line (Nerd Commenter)
 - `<Alt-r/c>` - Toggle RGB color picker (vCoolor) (uses GTK+, requires yad or zenity)
 
+# Nvim config
+
+## vimtex
+
+- `,ll` - compile and live preview in zathura
