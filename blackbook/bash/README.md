@@ -19,6 +19,9 @@
   hello.txt{_,}` - put "at the beginning into the beginning of the file
   hello.txt
 - `$OSTYPE` stores the name of the Operating System.
+- `compgen -k` - find out what keywords are available for your shell.
+- `compgen -c` - find out what commands are available for your shell.
+- `compgen -b` - find out what built-ins are available for your shell.
 
 ## Parameter Expansion
 
