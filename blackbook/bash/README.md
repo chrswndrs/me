@@ -72,3 +72,9 @@
  * Grok difference between single and double quoting strings
  * Grok "duck typing"
  * Grok code block and variable scope
+
+# ZSH
+
+ - `fg` - works a little bit different in zsh, if you're used to fg N,
+   where N is the job number you have to do it like this in zsh:
+    - `fg %N`
