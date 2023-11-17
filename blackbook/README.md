@@ -81,7 +81,7 @@
  * `lolcat` - colorize things
  * `cowsay` - fun way to show output
 
-## Redirection operators
+## Redirection operators ----- currentAnk
 
  * `>` - (over) write to file
  * `>>` - append lines to a file
